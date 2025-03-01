@@ -1,11 +1,14 @@
 import java.util.Scanner;
 public class Main{
     public static void main(String[]args){
-//        Methods
+   Page();
+    }
+    public static void Page(){
+        //Methods
         Scanner scan = new Scanner(System.in);
         Register reg =new Register();
 
-//        till here Methods
+        //        till here Methods
         boolean loop = true;
         while(loop){
             System.out.println("===Licence-Management-System===");
@@ -21,7 +24,7 @@ public class Main{
                     break;
                 case 2:
                     reg.login();
-                   break;
+                    break;
                 case 3:
                     loop =false;
                     break;
